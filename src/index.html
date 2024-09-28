@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="health-bar">
+            <!-- player health -->
+            <div class="player-health-bar">
+                <div class="health-background"></div>
+                <div id="playerHealth" class="player-health-progress"></div>
+            </div>
+
+            <!-- timer -->
+            <div id="timer" class="timer">
+                10
+            </div>
+            <!-- enemy health -->
+            <div class="enemy-health-bar">
+                <div class="health-background"></div>
+                <div id="enemyHealth" class="enemy-health-progress"></div>
+            </div>
+        </div>
+
+        <div id="displayText" class="gameResult">
+            Tie
+        </div>
+        <canvas></canvas>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

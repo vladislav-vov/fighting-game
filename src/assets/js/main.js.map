@@ -1,0 +1,1 @@
+{"version":3,"file":"main.js","mappings":";;;;;;AAAa;AACb","sources":["webpack:///./src/ts/index.ts"],"sourcesContent":["\"use strict\";\nconsole.log('work');\n"],"names":[],"sourceRoot":""}

@@ -1,0 +1,7 @@
+export { default as setSpriteVelocity } from './setSpriteVelocity'
+export { default as getFps } from './getFps'
+export { default as rectangleCollision } from './rectangleCollision'
+export { default as decreaseTimer } from './decreaseTimer'
+export { default as determineWinner } from './determineWinner'
+export { default as renderFps } from './renderFps'
+export { default as handlePlayerAttack } from './handlePlayerAttack'
